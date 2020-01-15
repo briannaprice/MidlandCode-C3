@@ -1,0 +1,180 @@
+<!-- Use the image titled 'floatsAndClearsPractice.jpg' as a reference point and style this page to look like the image 
+    The links at the top should have an on hover for the non active link. The side links (the fish types) should also highlight on hover-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practice For Floats And Clears</title>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Bahianita|DM+Serif+Text&display=swap" rel="stylesheet">
+    <style>
+      /* ELEMENTS */
+      body{
+        margin: 0px;
+      }
+      nav{
+        margin-top: 2px;
+        width: 100%;
+      }
+      ul{
+        list-style-type: circle;
+      }
+
+      footer{
+        background-size: auto 100px;
+        background-position: center;
+        background-repeat: repeat-x;
+font-family: 'DM Serif Text', serif;
+        background-image: url('http://www.pbs.org/wnet/nature/files/2012/05/Oncorhynchus_nerka-1-610x272.jpg');
+        border: 2px solid black;
+        margin: 6px;
+        text-shadow: 2px 2px white;
+      }
+      /* HELPER CLASSES */
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+    .text-center{
+      text-align: center;
+    }
+    .clear-both{
+      clear: both;
+    }
+
+    /* NAV MENU */
+    .active-link{
+      background-color: gray;
+      color: white !important;
+    }
+
+    .nav-link{
+      width: 25%;
+      color: black;
+      text-decoration: none;
+    }
+    
+    .nav-link:not(.active-link):hover{
+      background-color: black;
+      color: white;
+    }
+
+    /* PAGE LAYOUT */
+    .width-30{
+      width: 30%;
+    }
+    .width-70{
+      width: 70%
+    }
+    /* MAIN BODY */
+    .article-img{
+      width: 100px;
+      margin-right: 5px
+    }
+
+  /* TOP HEADER */
+    .logo{
+      height: 50px;
+    }
+
+    .top-banner{
+      background-color: gray;
+      height: 50px;
+      width: 100%;
+    }
+
+    .top-heading{
+      margin: 0px;
+      padding-right: 20px;
+      height: 50px;
+      line-height: 50px;
+      color: white;
+      font-family: 'Bahianita', cursive;
+      text-shadow: 2px 2px black;
+      }
+
+    </style>
+  </head>
+  <body>
+      <header class="top-banner left">
+          <img 
+            class="logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bear_Alaska_%283%29.jpg/1280px-Bear_Alaska_%283%29.jpg"
+          />
+          <h1 class="right top-heading">HUNGRY BEAR FISHERIES</h1>
+      </header>
+      <nav class="left">
+        <a class="text-center left active-link nav-link" href="#">Our Fish</a>
+        <a class="text-center left nav-link" href="#">Conservation</a>
+        <a class="text-center left nav-link" href="#">About Us</a>
+        <a class="text-center left nav-link" href="#">Contact Us</a>
+      </nav>
+      <aside class="left width-30">
+        <h3>Currently Available</h3>
+        <ul>
+          <li>Atlantic Salmon</li>
+          <li>Coho Salmon</li>
+          <li>Chinook Salmon</li>
+          <li>Sockeye Salmon</li>
+          <li>Pink Salmon</li>
+          <li>Rainbow Trout</li>
+        </ul>
+      </aside>
+      <main class="left width-70">
+      <section>
+        <p>
+          <img
+            class="article-img left"
+            src="http://espacepourlavie.ca/sites/espacepourlavie.ca/files/styles/gal-photo-large/public/salmo-salar-a028_p6_0.jpg?itok=ClZ2RwBd"
+          />
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </section>
+      <section>
+        <p>
+          <img
+            class="article-img left"
+            src="http://caltrout.org/wp-content/uploads/2017/05/coho-slider.png"
+          />
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </section>
+      <section>
+        <p>
+          <img
+            class="article-img left"
+            src="http://oceana.org/sites/default/files/styles/lightbox_full/public/chinook_salmon.jpg?itok=SlAYpTyq"
+          />
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </section>
+    </main>
+      <footer class="clear-both text-center">
+        <div>
+          <h1>Only The Freshest Fish Around</h1>
+        </div>
+      </footer>
+    <!-- end pageContainer -->
+  </body>
+</html>
