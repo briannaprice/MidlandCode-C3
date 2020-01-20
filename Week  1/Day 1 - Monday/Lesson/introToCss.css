@@ -2,10 +2,17 @@ header {
     font-family: 'Helvetica', sans-serif;
 }
 
-/* selector
+/* 
+   
+selector
   .class
   #id
   element
+  *
+  .class, .class2 - OR
+  .class1.class2 - AND
+  .class1 .class2 - Any element with class2 that is a child of an element with class1
+  
  {
     attribute: value;
 } */
