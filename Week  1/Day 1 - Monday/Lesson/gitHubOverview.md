@@ -26,6 +26,8 @@
 * Utilize branches for different portions of a project.
 * NEVER `commit` to master. This should be done with a merge as opposed to a commit directly to master.
 
+
+
 ## The Command Line
 * Learn it now and it will help you massively moving forwards.
 * If you're using a windows machine, you're best bet would be to use: [Gitbash](https://gitforwindows.org/)
