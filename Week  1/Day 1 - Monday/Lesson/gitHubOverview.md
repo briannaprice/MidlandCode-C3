@@ -15,11 +15,11 @@
 ## What is GitHub
 * Centralized site and hosting for git projects.
 * Allows for remote work and connection to projects with a VCS. 
-* Helps facilitate open source projects thorugh the use of merge and pull requests.
+* Helps facilitate open source projects through the use of merge and pull requests.
 * Can be utilized via the command line or via GitHub Desktop
 
 ## GitHub Best Practices
-* Ensure that all commits are clear in what you're commiting to the repository. Generally speaking they should be present tense statements, but different companies have different requirements. 
+* Ensure that all commits are clear in what you're committing to the repository. Generally speaking they should be present tense statements, but different companies have different requirements. 
     * Bad Example: `Adds work completed on 4/15/19` That is incredibly unclear for any future review of the repository. Yes, you might know what that means today but what if you need to look at the repo next year? OR what if that was a commit to a repo you're assisting on?
     * Good Example: `Adds new styling for about page`. This is clear what it adds and what it impacts
 * Commits should ONLY commit one "thing" this might be a larger function implementation but a commit shouldn't be say: `Adds sorting function to posts page and styling to about page`. Those should be two separate commits and ideally separate branches.
@@ -28,8 +28,9 @@
 
 ## The Command Line
 * Learn it now and it will help you massively moving forwards.
+* If you're using a windows machine, you're best bet would be to use; [Gitbash](https://gitforwindows.org/)
 * Resources for Mac Command Line (these can be utilized on a windows machine with something like gitbash): [Best Go to Commands](https://github.com/0nn0/terminal-mac-cheatsheet)
-* Git should ideally be done via the command line as well as GitHub Desltop can be clunky at best. 
+* Git should ideally be done via the command line as well as GitHub Desktop can be clunky at best. 
 * Resources for Github via command line: 
 
 # git cheat-sheet
