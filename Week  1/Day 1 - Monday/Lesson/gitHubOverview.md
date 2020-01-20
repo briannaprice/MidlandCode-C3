@@ -28,7 +28,7 @@
 
 ## The Command Line
 * Learn it now and it will help you massively moving forwards.
-* If you're using a windows machine, you're best bet would be to use; [Gitbash](https://gitforwindows.org/)
+* If you're using a windows machine, you're best bet would be to use: [Gitbash](https://gitforwindows.org/)
 * Resources for Mac Command Line (these can be utilized on a windows machine with something like gitbash): [Best Go to Commands](https://github.com/0nn0/terminal-mac-cheatsheet)
 * Git should ideally be done via the command line as well as GitHub Desktop can be clunky at best. 
 * Resources for Github via command line: 
