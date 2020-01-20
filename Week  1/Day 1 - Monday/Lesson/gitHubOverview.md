@@ -121,11 +121,9 @@ http://git-annex.branchable.com/walkthrough/ #see ssh section
 * git init
 * git add README.md
 * git commit -m "first commit"
-* git remote add origin git@github.com:miketruax/ 
-* test-repo.git
+* git remote add origin git@github.com:miketruax/test-repo.git
 * git push -u origin master
 
 …or push an existing repository from the command line
-* git remote add origin git@github.com:miketruax/
-* test-repo.git
+* git remote add origin git@github.com:miketruax/test-repo.git
 * git push -u origin master
